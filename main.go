@@ -62,7 +62,7 @@ func main() {
 					&cli.StringFlag{
 						Name:    "port",
 						Aliases: []string{"p"},
-						Value:   "5001",
+						Value:   "10000",
 						Usage:   "Port to listen on",
 					},
 					&cli.BoolFlag{
